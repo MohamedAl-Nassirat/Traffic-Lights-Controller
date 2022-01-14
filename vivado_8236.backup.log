@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 25 10:40:55 2021
+# Process ID: 8236
+# Current directory: C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6824 C:\Users\abolf\Desktop\LAB4\New folder (2)\lab4_traffic_intersection\traffic_intersection.xpr
+# Log file: C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection/vivado.log
+# Journal file: C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection/traffic_intersection.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/softgalaxy/Documents/Vivado/ece210-labs/lab2-traffic-intersection-8States-eClass' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'traffic_intersection.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+close [ open {C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd} w ]
+add_files {{C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd}}
+ERROR: [Vivado 12-385] Illegal file or directory name 'C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd'
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 25 10:44:28 2021...

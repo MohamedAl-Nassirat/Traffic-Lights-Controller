@@ -1,0 +1,128 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Oct 25 10:44:58 2021
+# Process ID: 10940
+# Current directory: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15248 C:\Users\abolf\Desktop\LAB4\new\lab4_traffic_intersection\traffic_intersection.xpr
+# Log file: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/vivado.log
+# Journal file: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/abolf/Desktop/LAB4/New folder (2)/lab4_traffic_intersection' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+close [ open C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd w ]
+add_files C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'traffic_intersection' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj traffic_intersection_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/LAB4_PKG.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.srcs/sources_1/new/traffic_intersection.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'traffic_intersection'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim'
+"xelab -wto 8d9b5812fb7f488d8f85616774793f5c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot traffic_intersection_behav xil_defaultlib.traffic_intersection -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8d9b5812fb7f488d8f85616774793f5c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot traffic_intersection_behav xil_defaultlib.traffic_intersection -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.lab4_pkg
+Compiling architecture behavioral of entity xil_defaultlib.traffic_intersection
+Built simulation snapshot traffic_intersection_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim/xsim.dir/traffic_intersection_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim/xsim.dir/traffic_intersection_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 25 12:06:31 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 25 12:06:31 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1198.785 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "traffic_intersection_behav -key {Behavioral:sim_1:Functional:traffic_intersection} -tclbatch {traffic_intersection.tcl} -view {C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection_tb_behav.wcfg
+WARNING: Simulation object /traffic_intersection_tb/clk was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/Traffic_Int/clk_1Hz was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/CC was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/led6_g was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/led6_b was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/led6_r was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/btn was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/sw was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/led was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/red_led was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/out_7seg was not found in the design.
+WARNING: Simulation object /traffic_intersection_tb/Traffic_Int/Count_OneSecDelay was not found in the design.
+source traffic_intersection.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'traffic_intersection_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:21 . Memory (MB): peak = 1198.785 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Mon Oct 25 12:06:48 2021] Launched synth_1...
+Run output will be captured here: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Mon Oct 25 12:08:10 2021] Launched synth_1...
+Run output will be captured here: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Mon Oct 25 12:09:17 2021] Launched impl_1...
+Run output will be captured here: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Oct 25 12:10:21 2021] Launched impl_1...
+Run output will be captured here: C:/Users/abolf/Desktop/LAB4/new/lab4_traffic_intersection/traffic_intersection.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1198.785 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 25 16:34:27 2021...
